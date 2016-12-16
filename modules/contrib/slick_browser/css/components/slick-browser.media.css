@@ -1,0 +1,78 @@
+/**
+ * @file
+ */
+
+/** Body with fullscreen video either outside or within iframe/ modal. */
+.is-zoom {
+  height: 100vh;
+  overflow: hidden !important; /** admin toolbar JS */
+  position: relative;
+}
+
+.sb .media {
+  background-color: #fff;
+}
+
+/** Fallback for when aspect ratio is disabled. */
+.sb__zoom .media {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+
+.sb__zoom iframe {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/** Clone of media preview to be placed within .sb__zoom which fullscreens. */
+.sb--zoomed .sb__zoom {
+  background-color: #000;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/** Body for the browser within iframe/ modal which has .form--view. */
+.is-zoom .form--view .sb__zoom .is-playing iframe {
+  height: 100vh;
+}
+
+/** Widgets outside iframe/ modal. */
+.sb--zoomed .sb--widget .sb__zoom,
+.is-zoom .form--view.form--iframe .sb__zoom .is-playing iframe {
+  height: 100%;
+}
+
+/** Icons. */
+.media__icon--play {
+  border: 0;
+}
+
+.sb .media__icon--close::before,
+.sb .media__icon--close::after {
+  height: 4px;
+  margin: -2px 0 0 -10px;
+  width: 20px;
+}
+
+.sb .media__icon--close {
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  width: 40px;
+}
+
+.sb__zoom .is-playing .media__icon--close {
+  margin: 0;
+  opacity: 1;
+  top: 0;
+  visibility: visible;
+  background-color: #6b6b6b;
+}

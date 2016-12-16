@@ -1,0 +1,42 @@
+name: foundation
+type: theme
+description: 'theme for task Foundation'
+package: Core
+'base theme': omega_starterkit
+force_export: false
+inherit_layout: false
+scss_support: false
+libraries:
+  - foundation/foundation
+regions:
+  header: Header
+  page_top: 'Page Top'
+  highlighted: Highlighted
+  preface_first: 'Preface First'
+  preface_second: 'Preface Second'
+  preface_third: 'Preface Third'
+  preface_fourth: 'Preface Fourth'
+  content: Content
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  postscript_first: 'Postscript First'
+  postscript_second: 'Postscript Second'
+  postscript_third: 'Postscript Third'
+  postscript_fourth: 'Postscript Fourth'
+  logo: 'Logo'
+  footer: Footer
+  page_bottom: 'Page Bottom'
+features:
+  logo: true
+  name: true
+  slogan: true
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  main_menu: true
+  secondary_menu: true
+version: 8.x-5.x
+core: 8.x
+project: omega
+datestamp: 1469485442

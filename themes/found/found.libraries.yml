@@ -1,0 +1,19 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+bootstrap-scripts:
+  js:
+    found/js/affix.js: {}
+    found/js/alert.js: {}
+    found/js/button.js: {}
+    found/js/carousel.js: {}
+    found/js/collapse.js: {}
+    found/js/dropdown.js: {}
+    found/js/modal.js: {}
+    found/js/tooltip.js: {}
+    found/js/popover.js: {}
+    found/js/scrollspy.js: {}
+    found/js/tab.js: {}
+    found/js/transition.js: {}

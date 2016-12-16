@@ -1,0 +1,52 @@
+{
+	"name": "drupal/sharerich",
+	"description": "Responsive sharing buttons.",
+	"keywords": ["sharing", "share", "social", "buttons"],
+	"type": "drupal-module",
+	"homepage": "https://www.drupal.org/project/sharerich",
+	"license": "GPL-2.0+",
+	"minimum-stability": "dev",
+	"support": {
+		"issues": "https://www.drupal.org/project/sharerich",
+		"source": "https://cgit.drupalcode.org/sharerich"
+	},
+	"authors": [
+		{
+			"name": "Marcelo Vani",
+			"email": "marcellovani@yahoo.co.uk",
+			"homepage": "https://about.me/marcelovani",
+			"role": "Maintainer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "kni-labs/rrssb",
+				"version": "1.13.1",
+				"type": "drupal-library",
+				"source": {
+					"url": "https://github.com/kni-labs/rrssb.git",
+					"type": "git",
+					"reference": "master"
+				},
+				"dist": {
+					"url": "https://github.com/kni-labs/rrssb/archive/1.13.1.zip",
+					"type": "zip"
+				},
+				"require": {
+					"composer/installers": "~1.0"
+				}
+			}
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"kni-labs/rrssb": "~1.0"
+	},
+	"extra": {
+		"installer-paths": {
+			"web/libraries/{$name}" : ["type:drupal-library"]
+		}
+	}
+}

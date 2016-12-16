@@ -1,0 +1,57 @@
+
+Slick Browser 8.x-1.0-dev, 2016-12-06
+-------------------------------------
+- Fixed for coding standards.
+
+Slick Browser 8.x-1.0-dev, 2016-12-01
+-------------------------------------
+- Overrode new core opacity as not good for button remove being dimmed out.
+- Added a simple confirm deletion.
+- Added thumbnails to replace iframes Instagram, Twitter, etc. within small
+  preview of list/ table view.
+- Made button selection display visible all the time to reduce distractions with
+  a mix of iframes, images, videos.
+
+Slick Browser 8.x-1.0-dev, 2016-11-26
+-------------------------------------
+- Added basic support for other media entity: Instagram, Twitter, etc.
+
+Slick Browser 8.x-1.0-dev, 2016-11-23
+-------------------------------------
+- Fixed for broken Slick within hidden details element.
+
+Slick Browser 8.x-1.0-dev, 2016-11-22
+-------------------------------------
+- Fixed for IEF hidden button.
+- Abandoned responsive modals due to Beta1 breaking change #2826010.
+- Removed unwanted "Lightbox image style" option for small selection previews.
+- Added cancel option for sortable elements: a, .button, input tags.
+
+Slick Browser 8.x-1.0-dev, 2016-11-19
+-------------------------------------
+- Added "Remove all" button to non-images.
+- A couple of minor fixes.
+
+Slick Browser 8.x-1.0-dev, 2016-11-15
+-------------------------------------
+- Fixed for the schema error with third party settings. Re-saving Entity Browser
+  File widget form should clean out the traces.
+
+Slick Browser 8.x-1.0-dev, 2016-11-14
+-------------------------------------
+- Updated to new schema. Clearing cache and re-saving field widget suffice to
+  fix 99% schema errors by now.
+
+Slick Browser 8.x-1.0-dev, 2016-11-12
+-------------------------------------
+- Added another additional core patch requirement for hidden image fields.
+- Added supports for a single image preview.
+- Fixed for Remove all button.
+- Fixed for tabs top white space.
+- Fixed for widget form states.
+
+Slick Browser 8.x-1.0-dev, 2016-11-10
+-------------------------------------
+- Triggered packager.
+- Added module files.
+- Initial commit.

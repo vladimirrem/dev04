@@ -1,0 +1,19 @@
+/* SAMPLE CSS FILE CONTENTS */
+html {
+    background-color: none;
+}
+.h1-title-view
+{
+ color: red;
+}
+#site-branding .site-name a{
+ color: black;
+}
+.views-element-container .contextual-region {
+    border-style: solid;
+    border: 10px; 
+    border-color: red; 
+}
+#footer-outer-wrapper{
+	background-color: #383C3F;
+}

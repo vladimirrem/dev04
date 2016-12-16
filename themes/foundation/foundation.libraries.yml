@@ -1,0 +1,21 @@
+foundation:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the foundation theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the foundation.libraries.yml file.'
+    scss: 
+      style/css/foundation.css: 'style/scss/foundation.scss'
+  version: VERSION
+  js:
+    js/foundation.js: {}
+  css:
+    theme:
+      style/css/foundation.css: {}
+    layout: 
+      #style/css/layout/some-layout-file.css: {}
+    component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+    

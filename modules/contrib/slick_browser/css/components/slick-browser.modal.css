@@ -1,0 +1,34 @@
+/**
+ * @file
+ */
+
+.ui-dialog-titlebar .button--sb {
+  border-radius: 0;
+  display: block;
+  float: right;
+  position: relative;
+  z-index: 9;
+}
+
+.sb-html-dialog .ui-dialog {
+  max-width: 100%;
+}
+
+.sb-html-dialog .ui-dialog .ui-widget-content.ui-dialog-content {
+  background: #e6e5e1;
+}
+
+.sb-html-dialog .ui-dialog--zoom .ui-widget-content.ui-dialog-content {
+  padding: 0;
+}
+
+.ui-dialog--zoom iframe[id*="entity_browser_iframe"] {
+  max-height: 100vh;
+}
+
+@media (min-width: 640px) {
+  .sb-html-dialog .ui-dialog .ui-widget-content.ui-dialog-content {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}

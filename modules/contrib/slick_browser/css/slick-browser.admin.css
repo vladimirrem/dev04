@@ -1,0 +1,9 @@
+/**
+ * @file
+ *
+ * @todo: Drop for blazy.admin.css
+ */
+
+.field-plugin-settings-editing .form__title--grid small {
+  display: none;
+}

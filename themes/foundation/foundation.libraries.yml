@@ -6,6 +6,7 @@ foundation:
     description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the foundation.libraries.yml file.'
     scss: 
       style/css/foundation.css: 'style/scss/foundation.scss'
+      style/css/layout/front-layout.css: 'style/scss/front-layout.scss'
   version: VERSION
   js:
     js/foundation.js: {}
@@ -13,7 +14,7 @@ foundation:
     theme:
       style/css/foundation.css: {}
     layout: 
-      #style/css/layout/some-layout-file.css: {}
+      style/css/layout/front-layout.css: {}
     component:
       #style/css/components/some-component.css: {}
   dependencies:

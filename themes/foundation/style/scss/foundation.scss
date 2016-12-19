@@ -2,3 +2,109 @@
 /*@import "omega-style-vars", "omega-default-style-vars";*/
 
 /* SAMPLE SCSS FILE CONTENTS */
+
+
+
+$solid-line: 1px solid grey;
+
+#block-foundation-branding {
+	width: 200px;
+	height: 70px;
+	float: left;
+	.site-name {
+	font-size: 17px;
+    text-align: left;
+    padding-top: 8px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+
+	}
+}
+
+#block-nicemenus {
+	padding-top: 20px;
+}
+
+#block-searchform-2 {
+	float: right;
+}
+
+#logo {
+	width: 35px;
+	height: 35px;
+}
+
+#views-exposed-form-most-recent-listings-page-1 {
+	margin-top: 350px;
+}
+
+
+/* Top menu */
+
+
+
+#block-nicemenus li.menu-item {
+	background-color: inherit;
+    border: none;
+}
+
+#block-nicemenus li.menuparent.menu-item.menu-item--expanded {
+	background-color: black;
+    border: none;
+}
+
+/* FOOTER STYLE */
+
+#footer-logo {
+	max-width: 1400px;
+	margin: auto;
+	padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+$footer-text: #A7C2B7;
+$block-width: 33%;
+
+#footer-outer-wrapper {
+	background-color: #383C3F;
+	color: $footer-text;
+	a {
+	color: $footer-text;
+	text-decoration: none;
+	}
+	a:hover {
+	color: #FFF;
+	text-decoration: none;
+	}
+	h2 {
+	color: #fff;
+	}
+	.field--type-text-with-summary {
+	clear: left;
+	width: 100%;
+	float: left;
+	a {
+	text-decoration: underline;
+	color: $footer-text;
+	}
+	}
+	
+	
+}
+
+#block-useraccountmenu {
+	float: right;
+	margin: 1em;
+	width: 50%;
+	border-top: $solid-line;
+	}
+
+#block-views-block-location-block-2, #block-footertext, #block-views-block-categories-block-3 {
+	width: $block-width;
+	float: left;
+}
+
+.clearfix .text-formatted .field .field--name-body .field--type-text-with-summary .field--label-hidden .field__item .quickedit-field {
+	width: 50%;
+}
+

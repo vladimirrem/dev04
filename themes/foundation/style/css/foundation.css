@@ -1,2 +1,104 @@
 /*@import "omega-style-vars", "omega-default-style-vars";*/
 /* SAMPLE SCSS FILE CONTENTS */
+/* line 10, ../scss/foundation.scss */
+#block-foundation-branding {
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+/* line 14, ../scss/foundation.scss */
+#block-foundation-branding .site-name {
+  font-size: 17px;
+  text-align: left;
+  padding-top: 8px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* line 23, ../scss/foundation.scss */
+#block-nicemenus {
+  padding-top: 20px;
+}
+
+/* line 27, ../scss/foundation.scss */
+#block-searchform-2 {
+  float: right;
+}
+
+/* line 31, ../scss/foundation.scss */
+#logo {
+  width: 35px;
+  height: 35px;
+}
+
+/* Top menu */
+/* line 40, ../scss/foundation.scss */
+#block-nicemenus li.menu-item {
+  background-color: inherit;
+  border: none;
+}
+
+/* line 45, ../scss/foundation.scss */
+#block-nicemenus li.menuparent.menu-item.menu-item--expanded {
+  background-color: black;
+  border: none;
+}
+
+/* FOOTER STYLE */
+/* line 52, ../scss/foundation.scss */
+#footer-logo {
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+/* line 63, ../scss/foundation.scss */
+#footer-outer-wrapper {
+  background-color: #383C3F;
+  color: #A7C2B7;
+}
+/* line 66, ../scss/foundation.scss */
+#footer-outer-wrapper a {
+  color: #A7C2B7;
+  text-decoration: none;
+}
+/* line 70, ../scss/foundation.scss */
+#footer-outer-wrapper a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 74, ../scss/foundation.scss */
+#footer-outer-wrapper h2 {
+  color: #fff;
+}
+/* line 77, ../scss/foundation.scss */
+#footer-outer-wrapper .field--type-text-with-summary {
+  clear: left;
+  width: 100%;
+  float: left;
+}
+/* line 81, ../scss/foundation.scss */
+#footer-outer-wrapper .field--type-text-with-summary a {
+  text-decoration: underline;
+  color: #A7C2B7;
+}
+
+/* line 90, ../scss/foundation.scss */
+#block-useraccountmenu {
+  float: right;
+  margin: 1em;
+  width: 50%;
+  border-top: 1px solid grey;
+}
+
+/* line 97, ../scss/foundation.scss */
+#block-views-block-location-block-2, #block-footertext, #block-views-block-categories-block-3 {
+  width: 33%;
+  float: left;
+}
+
+/* line 102, ../scss/foundation.scss */
+.clearfix .text-formatted .field .field--name-body .field--type-text-with-summary .field--label-hidden .field__item .quickedit-field {
+  width: 50%;
+}

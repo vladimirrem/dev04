@@ -9,10 +9,13 @@ $bodyFont: "Helvetica Neue", Arial, Helvetica !default;
 $header: Georgia, Times, serif;
 
 
-
 //
 
-
+#front-header-outer-wrapper {
+  background-image: url(../../../images/hero_2.jpg);
+    height: 800px;
+    background-size: 100% 120%;
+}
 
 $regionSpacing: 0;
 
@@ -352,7 +355,7 @@ body {
   .region--footer { 
     @include column(12, 12); 
     margin-bottom: $regionSpacing;
-  } 
+     } 
 
 }
 
@@ -825,16 +828,14 @@ body {
 .footer-layout { 
   @include row(12);
   max-width: 1400px;
-
+  
   // Breakpoint: Wide; Region Group: footer; Region: footer;
   .region--footer { 
     @include column(12, 12); 
     margin-bottom: $regionSpacing;
-  } 
+      } 
 
 }
 
 }
-#header-outer-wrapper {
-  background-color: gold;
-}
+

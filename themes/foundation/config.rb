@@ -3,9 +3,9 @@
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "css"
-sass_dir = "scss"
-images_dir = "i"
+css_dir = "/style/css"
+sass_dir = "/style/scss"
+images_dir = "images"
 javascripts_dir = "js"
 
 # Require any additional compass plugins installed on your system.
@@ -28,6 +28,6 @@ javascripts_dir = "js"
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
-on_stylesheet_saved do |path|
-  CssSplitter.split(path) unless path[/\d+$/]
-end
+#on_stylesheet_saved do |path|
+ # CssSplitter.split(path) unless path[/\d+$/]
+#end

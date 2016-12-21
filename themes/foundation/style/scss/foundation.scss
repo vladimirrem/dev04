@@ -3,9 +3,26 @@
 
 /* SAMPLE SCSS FILE CONTENTS */
 
-
-
+$green: #7DC57E;
+$lgreen: #3CC47E;
 $solid-line: 1px solid grey;
+
+
+.path-node {
+	#site-branding {
+		.site-name {
+		a, a:hover {
+    color: black;
+}
+}
+}
+}
+
+.path-frontpage {
+	#site-branding .site-name a, a:hover {
+    color: white;
+}
+}
 
 #block-foundation-branding {
 	width: 200px;
@@ -20,13 +37,15 @@ $solid-line: 1px solid grey;
 	}
 }
 
-#block-nicemenus {
-	padding-top: 20px;
+/* Top menu */
+
+
+.menu-item--expanded {
+   list-style-image: none;
+   list-style-type: none;
 }
 
-#block-searchform-2 {
-	float: right;
-}
+
 
 #logo {
 	width: 35px;
@@ -34,33 +53,75 @@ $solid-line: 1px solid grey;
 }
 
 #views-exposed-form-most-recent-listings-page-1 {
-	margin-top: 350px;
+	margin-top: 5em;
 }
 
 
-/* Top menu */
 
 
-
-#block-nicemenus li.menu-item {
-	background-color: inherit;
-    border: none;
-}
-
-#block-nicemenus li.menuparent.menu-item.menu-item--expanded {
-	background-color: black;
-    border: none;
-}
 
 /* FOOTER STYLE */
 
 #footer-logo {
-	max-width: 1400px;
+	max-width: 1440px;
 	margin: auto;
-	padding-top: 70px;
-    padding-bottom: 70px;
+	padding-top: 1%;
+    padding-bottom: 4%;
     border-top: 1px dashed rgba(0, 0, 0, 0.12);
+    margin-top: 2%;
+    .view-display-id-block_1 .views-col {
+    border: none;
+    margin-top: 5%;
+    }
 }
+
+#block-views-block-location-block-2 {
+.view-display-id-block_2 .views-col {
+  width: 20%;
+  text-align: left;
+  padding: 10px;
+  a:hover {
+  margin-left: 5px;
+  }
+  a:before {
+  content: " > " ;
+  color: $lgreen;
+  font-weight: bold;
+  margin-right: 0.5em;
+  }
+}
+}
+
+#block-views-block-categories-block-3 {
+	.view-display-id-block_3 {
+    .views-col {
+    width: 20%;
+  text-align: left;
+  padding: 10px;
+  a:hover {
+  margin-left: 5px;
+  }
+  a:before {
+  content: " > " ;
+  color: $lgreen;
+  font-weight: bold;
+  margin-right: 0.5em;
+  }
+  }
+}
+}
+
+#footer-outer-wrapper {
+	font-size: smaller;
+	h2 {
+	font-weight: normal;
+	}
+}
+
+.region--footer.region.region-footer {
+	padding-top: 2%;
+}
+
 
 $footer-text: #A7C2B7;
 $block-width: 33%;
@@ -92,11 +153,27 @@ $block-width: 33%;
 	
 }
 
+#block-footercopyright {
+	width: 50%;
+	float: left;
+	border-top: $solid-line;
+	margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 1em;
+}
+
 #block-useraccountmenu {
 	float: right;
-	margin: 1em;
+	margin: 0;
 	width: 50%;
 	border-top: $solid-line;
+	padding-top: 2em;
+	text-align: right;
+	.menu {
+	text-align: right;
+	}
+	margin-bottom: 2%;
+    margin-top: 2%;
 	}
 
 #block-views-block-location-block-2, #block-footertext, #block-views-block-categories-block-3 {

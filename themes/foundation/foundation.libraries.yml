@@ -7,6 +7,7 @@ foundation:
     scss: 
       style/css/foundation.css: 'style/scss/foundation.scss'
       style/css/layout/front-layout.css: 'style/scss/front-layout.scss'
+      style/css/layout/primary-layout.css: 'style/scss/primary-layout.scss'
   version: VERSION
   js:
     js/foundation.js: {}
@@ -15,6 +16,7 @@ foundation:
       style/css/foundation.css: {}
     layout: 
       style/css/layout/front-layout.css: {}
+      style/css/layout/primary-layout.css: {}
     component:
       #style/css/components/some-component.css: {}
   dependencies:

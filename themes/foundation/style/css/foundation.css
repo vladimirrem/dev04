@@ -1,12 +1,22 @@
 /*@import "omega-style-vars", "omega-default-style-vars";*/
 /* SAMPLE SCSS FILE CONTENTS */
-/* line 10, ../scss/foundation.scss */
+/* line 14, ../scss/foundation.scss */
+.path-node #site-branding .site-name a, .path-node #site-branding .site-name a:hover {
+  color: black;
+}
+
+/* line 22, ../scss/foundation.scss */
+.path-frontpage #site-branding .site-name a, .path-frontpage a:hover {
+  color: white;
+}
+
+/* line 27, ../scss/foundation.scss */
 #block-foundation-branding {
   width: 200px;
   height: 70px;
   float: left;
 }
-/* line 14, ../scss/foundation.scss */
+/* line 31, ../scss/foundation.scss */
 #block-foundation-branding .site-name {
   font-size: 17px;
   text-align: left;
@@ -14,91 +24,154 @@
   border-right: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-/* line 23, ../scss/foundation.scss */
-#block-nicemenus {
-  padding-top: 20px;
+/* Top menu */
+/* line 43, ../scss/foundation.scss */
+.menu-item--expanded {
+  list-style-image: none;
+  list-style-type: none;
 }
 
-/* line 27, ../scss/foundation.scss */
-#block-searchform-2 {
-  float: right;
-}
-
-/* line 31, ../scss/foundation.scss */
+/* line 50, ../scss/foundation.scss */
 #logo {
   width: 35px;
   height: 35px;
 }
 
-/* Top menu */
-/* line 40, ../scss/foundation.scss */
-#block-nicemenus li.menu-item {
-  background-color: inherit;
-  border: none;
-}
-
-/* line 45, ../scss/foundation.scss */
-#block-nicemenus li.menuparent.menu-item.menu-item--expanded {
-  background-color: black;
-  border: none;
+/* line 55, ../scss/foundation.scss */
+#views-exposed-form-most-recent-listings-page-1 {
+  margin-top: 5em;
 }
 
 /* FOOTER STYLE */
-/* line 52, ../scss/foundation.scss */
+/* line 65, ../scss/foundation.scss */
 #footer-logo {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: auto;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 1%;
+  padding-bottom: 4%;
   border-top: 1px dashed rgba(0, 0, 0, 0.12);
+  margin-top: 2%;
+}
+/* line 72, ../scss/foundation.scss */
+#footer-logo .view-display-id-block_1 .views-col {
+  border: none;
+  margin-top: 5%;
 }
 
-/* line 63, ../scss/foundation.scss */
+/* line 79, ../scss/foundation.scss */
+#block-views-block-location-block-2 .view-display-id-block_2 .views-col {
+  width: 20%;
+  text-align: left;
+  padding: 10px;
+}
+/* line 83, ../scss/foundation.scss */
+#block-views-block-location-block-2 .view-display-id-block_2 .views-col a:hover {
+  margin-left: 5px;
+}
+/* line 86, ../scss/foundation.scss */
+#block-views-block-location-block-2 .view-display-id-block_2 .views-col a:before {
+  content: " > ";
+  color: #3CC47E;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+/* line 97, ../scss/foundation.scss */
+#block-views-block-categories-block-3 .view-display-id-block_3 .views-col {
+  width: 20%;
+  text-align: left;
+  padding: 10px;
+}
+/* line 101, ../scss/foundation.scss */
+#block-views-block-categories-block-3 .view-display-id-block_3 .views-col a:hover {
+  margin-left: 5px;
+}
+/* line 104, ../scss/foundation.scss */
+#block-views-block-categories-block-3 .view-display-id-block_3 .views-col a:before {
+  content: " > ";
+  color: #3CC47E;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+/* line 114, ../scss/foundation.scss */
+#footer-outer-wrapper {
+  font-size: smaller;
+}
+/* line 116, ../scss/foundation.scss */
+#footer-outer-wrapper h2 {
+  font-weight: normal;
+}
+
+/* line 121, ../scss/foundation.scss */
+.region--footer.region.region-footer {
+  padding-top: 2%;
+}
+
+/* line 129, ../scss/foundation.scss */
 #footer-outer-wrapper {
   background-color: #383C3F;
   color: #A7C2B7;
 }
-/* line 66, ../scss/foundation.scss */
+/* line 132, ../scss/foundation.scss */
 #footer-outer-wrapper a {
   color: #A7C2B7;
   text-decoration: none;
 }
-/* line 70, ../scss/foundation.scss */
+/* line 136, ../scss/foundation.scss */
 #footer-outer-wrapper a:hover {
   color: #FFF;
   text-decoration: none;
 }
-/* line 74, ../scss/foundation.scss */
+/* line 140, ../scss/foundation.scss */
 #footer-outer-wrapper h2 {
   color: #fff;
 }
-/* line 77, ../scss/foundation.scss */
+/* line 143, ../scss/foundation.scss */
 #footer-outer-wrapper .field--type-text-with-summary {
   clear: left;
   width: 100%;
   float: left;
 }
-/* line 81, ../scss/foundation.scss */
+/* line 147, ../scss/foundation.scss */
 #footer-outer-wrapper .field--type-text-with-summary a {
   text-decoration: underline;
   color: #A7C2B7;
 }
 
-/* line 90, ../scss/foundation.scss */
-#block-useraccountmenu {
-  float: right;
-  margin: 1em;
+/* line 156, ../scss/foundation.scss */
+#block-footercopyright {
   width: 50%;
+  float: left;
   border-top: 1px solid grey;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-top: 1em;
 }
 
-/* line 97, ../scss/foundation.scss */
+/* line 165, ../scss/foundation.scss */
+#block-useraccountmenu {
+  float: right;
+  margin: 0;
+  width: 50%;
+  border-top: 1px solid grey;
+  padding-top: 2em;
+  text-align: right;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+/* line 172, ../scss/foundation.scss */
+#block-useraccountmenu .menu {
+  text-align: right;
+}
+
+/* line 179, ../scss/foundation.scss */
 #block-views-block-location-block-2, #block-footertext, #block-views-block-categories-block-3 {
   width: 33%;
   float: left;
 }
 
-/* line 102, ../scss/foundation.scss */
+/* line 184, ../scss/foundation.scss */
 .clearfix .text-formatted .field .field--name-body .field--type-text-with-summary .field--label-hidden .field__item .quickedit-field {
   width: 50%;
 }

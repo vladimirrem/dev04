@@ -39,14 +39,52 @@
   color: white;
 }
 
-/* line 56, ../../scss/layout/primary-layout.scss */
+/*Filters for Listings*/
+/* line 57, ../../scss/layout/primary-layout.scss */
+.path-listings #views-exposed-form-most-recent-listings-page-2 {
+  position: static;
+  margin-top: 6em;
+}
+/* line 60, ../../scss/layout/primary-layout.scss */
+.path-listings #views-exposed-form-most-recent-listings-page-2 .form--inline.clearfix {
+  border: 1px solid #ccc;
+}
+/* line 63, ../../scss/layout/primary-layout.scss */
+.path-listings #views-exposed-form-most-recent-listings-page-2 .form-item {
+  width: 25%;
+  margin-right: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/* line 68, ../../scss/layout/primary-layout.scss */
+.path-listings #views-exposed-form-most-recent-listings-page-2 .form-item label {
+  margin-bottom: 0;
+}
+/* line 71, ../../scss/layout/primary-layout.scss */
+.path-listings #views-exposed-form-most-recent-listings-page-2 .form-item .form-text {
+  width: 100%;
+  height: 2em;
+  border-radius: 0.3em;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  padding: 0.35em 0.5em;
+  font-size: 1.2em;
+}
+/* line 81, ../../scss/layout/primary-layout.scss */
+.path-listings #views-exposed-form-most-recent-listings-page-2 .form-actions {
+  border-top: 1px solid #ccc;
+  text-align: right;
+  padding-right: 2em;
+}
+
+/* line 89, ../../scss/layout/primary-layout.scss */
 #search-block-form {
   float: right;
   opacity: inherit;
   border-radius: 2em;
   border: 2px solid #E8E8E8;
 }
-/* line 61, ../../scss/layout/primary-layout.scss */
+/* line 94, ../../scss/layout/primary-layout.scss */
 #search-block-form .form-search {
   border: none;
   margin-left: 1em;
@@ -54,7 +92,7 @@
   outline: none;
   color: grey;
 }
-/* line 68, ../../scss/layout/primary-layout.scss */
+/* line 101, ../../scss/layout/primary-layout.scss */
 #search-block-form .button {
   border: none;
   margin-right: 1em;
@@ -65,63 +103,63 @@
 }
 
 /* Content */
-/* line 82, ../../scss/layout/primary-layout.scss */
+/* line 115, ../../scss/layout/primary-layout.scss */
 #block-views-block-event-title-block-1 .views-field-field-img img {
   border: 1px solid grey;
   padding: 0.2em;
 }
-/* line 86, ../../scss/layout/primary-layout.scss */
+/* line 119, ../../scss/layout/primary-layout.scss */
 #block-views-block-event-title-block-1 .h1-title-view {
   padding-left: 2em;
 }
-/* line 88, ../../scss/layout/primary-layout.scss */
+/* line 121, ../../scss/layout/primary-layout.scss */
 #block-views-block-event-title-block-1 .h1-title-view h1 {
   font-weight: lighter;
 }
 
-/* line 97, ../../scss/layout/primary-layout.scss */
+/* line 130, ../../scss/layout/primary-layout.scss */
 .path-node .block-region-middle .clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item {
   border: 1px solid #CCC;
   padding: 1.5em;
   margin-top: 2em;
   line-height: 2em;
 }
-/* line 102, ../../scss/layout/primary-layout.scss */
+/* line 135, ../../scss/layout/primary-layout.scss */
 .path-node .block-region-middle .clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item p {
   color: #666673;
 }
 
 /*SIDEBAR*/
-/* line 113, ../../scss/layout/primary-layout.scss */
+/* line 146, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 {
   padding: 2em;
   padding-top: 0;
 }
-/* line 116, ../../scss/layout/primary-layout.scss */
+/* line 149, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table {
   width: 100%;
 }
-/* line 118, ../../scss/layout/primary-layout.scss */
+/* line 151, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table tr, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table tr {
   border-bottom: 1px solid #ccc;
 }
-/* line 121, ../../scss/layout/primary-layout.scss */
+/* line 154, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-field-cat-img, .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-field-loc-img, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-field-cat-img, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-field-loc-img {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-/* line 125, ../../scss/layout/primary-layout.scss */
+/* line 158, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name {
   width: 90%;
 }
-/* line 127, ../../scss/layout/primary-layout.scss */
+/* line 160, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name a, .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name a:hover, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name a, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name a:hover {
   width: 100%;
   color: #666673;
   text-decoration: none;
   padding-left: 1em;
 }
-/* line 133, ../../scss/layout/primary-layout.scss */
+/* line 166, ../../scss/layout/primary-layout.scss */
 .path-node .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name a:after, .path-listings .region--sidebar-second.region.region-sidebar-second .view-display-id-block_1 .views-table .views-field-name a:after {
   float: right;
   font-size: small;
@@ -129,12 +167,12 @@
   color: #7DC57E;
 }
 
-/* line 146, ../../scss/layout/primary-layout.scss */
+/* line 179, ../../scss/layout/primary-layout.scss */
 .path-node #block-views-block-categories-block-1, .path-node #block-views-block-location-block-1, .path-listings #block-views-block-categories-block-1, .path-listings #block-views-block-location-block-1 {
   border: 1px solid #ccc;
   margin-top: 2em;
 }
-/* line 149, ../../scss/layout/primary-layout.scss */
+/* line 182, ../../scss/layout/primary-layout.scss */
 .path-node #block-views-block-categories-block-1 h2, .path-node #block-views-block-location-block-1 h2, .path-listings #block-views-block-categories-block-1 h2, .path-listings #block-views-block-location-block-1 h2 {
   text-align: left;
   margin-left: 1em;
@@ -143,14 +181,14 @@
   padding-bottom: 0.5em;
 }
 
-/* line 160, ../../scss/layout/primary-layout.scss */
+/* line 193, ../../scss/layout/primary-layout.scss */
 .path-node .contact-form, .path-listings .contact-form {
   border: 1px solid #ccc;
   padding: 2em;
   padding-bottom: 3em;
   padding-top: 1em;
 }
-/* line 166, ../../scss/layout/primary-layout.scss */
+/* line 199, ../../scss/layout/primary-layout.scss */
 .path-node #edit-preview, .path-listings #edit-preview {
   background: 0;
   border: none;
@@ -158,7 +196,7 @@
   float: left;
   color: #7DC57E;
 }
-/* line 173, ../../scss/layout/primary-layout.scss */
+/* line 206, ../../scss/layout/primary-layout.scss */
 .path-node #edit-submit--2, .path-listings #edit-submit--2 {
   float: right;
   border: none;
@@ -167,7 +205,7 @@
   padding: 0.5em;
   color: white;
 }
-/* line 181, ../../scss/layout/primary-layout.scss */
+/* line 214, ../../scss/layout/primary-layout.scss */
 .path-node #block-foundation-search, .path-listings #block-foundation-search {
   border: 1px solid #ccc;
   padding: 2em;
@@ -176,24 +214,24 @@
 }
 
 /*FOOTER*/
-/* line 270, ../../scss/layout/primary-layout.scss */
+/* line 303, ../../scss/layout/primary-layout.scss */
 body {
   width: 100%;
   min-width: 100%;
   *zoom: 1;
 }
-/* line 260, ../../scss/layout/primary-layout.scss */
+/* line 293, ../../scss/layout/primary-layout.scss */
 body:before, body:after {
   content: "";
   display: table;
 }
-/* line 265, ../../scss/layout/primary-layout.scss */
+/* line 298, ../../scss/layout/primary-layout.scss */
 body:after {
   clear: both;
 }
 
 @media all and (min-width: 0px) {
-  /* line 402, ../../scss/layout/primary-layout.scss */
+  /* line 435, ../../scss/layout/primary-layout.scss */
   .header-layout {
     display: block;
     margin: 0 auto;
@@ -202,16 +240,16 @@ body:after {
     *zoom: 1;
     max-width: 130%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .header-layout:before, .header-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .header-layout:after {
     clear: both;
   }
-  /* line 407, ../../scss/layout/primary-layout.scss */
+  /* line 440, ../../scss/layout/primary-layout.scss */
   .header-layout .region--header {
     display: block;
     position: relative;
@@ -225,7 +263,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 413, ../../scss/layout/primary-layout.scss */
+  /* line 446, ../../scss/layout/primary-layout.scss */
   .header-layout .region--menus {
     display: block;
     position: relative;
@@ -240,7 +278,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 421, ../../scss/layout/primary-layout.scss */
+  /* line 454, ../../scss/layout/primary-layout.scss */
   .preface-layout {
     display: block;
     margin: 0 auto;
@@ -249,16 +287,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .preface-layout:before, .preface-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .preface-layout:after {
     clear: both;
   }
-  /* line 426, ../../scss/layout/primary-layout.scss */
+  /* line 459, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-first {
     display: block;
     position: relative;
@@ -272,7 +310,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 432, ../../scss/layout/primary-layout.scss */
+  /* line 465, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-second {
     display: block;
     position: relative;
@@ -286,7 +324,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 438, ../../scss/layout/primary-layout.scss */
+  /* line 471, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-third {
     display: block;
     position: relative;
@@ -300,7 +338,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 444, ../../scss/layout/primary-layout.scss */
+  /* line 477, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-fourth {
     display: block;
     position: relative;
@@ -315,7 +353,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 452, ../../scss/layout/primary-layout.scss */
+  /* line 485, ../../scss/layout/primary-layout.scss */
   .core-layout {
     display: block;
     margin: 0 auto;
@@ -324,16 +362,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .core-layout:before, .core-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .core-layout:after {
     clear: both;
   }
-  /* line 457, ../../scss/layout/primary-layout.scss */
+  /* line 490, ../../scss/layout/primary-layout.scss */
   .core-layout .region--highlighted {
     display: block;
     position: relative;
@@ -348,7 +386,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 465, ../../scss/layout/primary-layout.scss */
+  /* line 498, ../../scss/layout/primary-layout.scss */
   .main-layout {
     display: block;
     margin: 0 auto;
@@ -357,16 +395,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .main-layout:before, .main-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .main-layout:after {
     clear: both;
   }
-  /* line 470, ../../scss/layout/primary-layout.scss */
+  /* line 503, ../../scss/layout/primary-layout.scss */
   .main-layout .region--content {
     display: block;
     position: relative;
@@ -380,7 +418,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 476, ../../scss/layout/primary-layout.scss */
+  /* line 509, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-first {
     display: block;
     position: relative;
@@ -394,7 +432,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 482, ../../scss/layout/primary-layout.scss */
+  /* line 515, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-second {
     display: block;
     position: relative;
@@ -409,7 +447,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 490, ../../scss/layout/primary-layout.scss */
+  /* line 523, ../../scss/layout/primary-layout.scss */
   .postscript-layout {
     display: block;
     margin: 0 auto;
@@ -418,16 +456,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .postscript-layout:before, .postscript-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .postscript-layout:after {
     clear: both;
   }
-  /* line 495, ../../scss/layout/primary-layout.scss */
+  /* line 528, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-first {
     display: block;
     position: relative;
@@ -441,7 +479,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 501, ../../scss/layout/primary-layout.scss */
+  /* line 534, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-second {
     display: block;
     position: relative;
@@ -455,7 +493,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 507, ../../scss/layout/primary-layout.scss */
+  /* line 540, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-third {
     display: block;
     position: relative;
@@ -469,7 +507,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 513, ../../scss/layout/primary-layout.scss */
+  /* line 546, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-fourth {
     display: block;
     position: relative;
@@ -484,7 +522,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 521, ../../scss/layout/primary-layout.scss */
+  /* line 554, ../../scss/layout/primary-layout.scss */
   .footer-layout {
     display: block;
     margin: 0 auto;
@@ -493,16 +531,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .footer-layout:before, .footer-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .footer-layout:after {
     clear: both;
   }
-  /* line 526, ../../scss/layout/primary-layout.scss */
+  /* line 559, ../../scss/layout/primary-layout.scss */
   .footer-layout .region--footer {
     display: block;
     position: relative;
@@ -518,7 +556,7 @@ body:after {
   }
 }
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  /* line 536, ../../scss/layout/primary-layout.scss */
+  /* line 569, ../../scss/layout/primary-layout.scss */
   .header-layout {
     display: block;
     margin: 0 auto;
@@ -527,16 +565,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .header-layout:before, .header-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .header-layout:after {
     clear: both;
   }
-  /* line 541, ../../scss/layout/primary-layout.scss */
+  /* line 574, ../../scss/layout/primary-layout.scss */
   .header-layout .region--header {
     display: block;
     position: relative;
@@ -550,7 +588,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 547, ../../scss/layout/primary-layout.scss */
+  /* line 580, ../../scss/layout/primary-layout.scss */
   .header-layout .region--menus {
     display: block;
     position: relative;
@@ -565,7 +603,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 555, ../../scss/layout/primary-layout.scss */
+  /* line 588, ../../scss/layout/primary-layout.scss */
   .preface-layout {
     display: block;
     margin: 0 auto;
@@ -574,16 +612,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .preface-layout:before, .preface-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .preface-layout:after {
     clear: both;
   }
-  /* line 560, ../../scss/layout/primary-layout.scss */
+  /* line 593, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-first {
     display: block;
     position: relative;
@@ -597,7 +635,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 566, ../../scss/layout/primary-layout.scss */
+  /* line 599, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-second {
     display: block;
     position: relative;
@@ -611,7 +649,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 572, ../../scss/layout/primary-layout.scss */
+  /* line 605, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-third {
     display: block;
     position: relative;
@@ -625,7 +663,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 578, ../../scss/layout/primary-layout.scss */
+  /* line 611, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-fourth {
     display: block;
     position: relative;
@@ -640,7 +678,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 586, ../../scss/layout/primary-layout.scss */
+  /* line 619, ../../scss/layout/primary-layout.scss */
   .core-layout {
     display: block;
     margin: 0 auto;
@@ -649,16 +687,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .core-layout:before, .core-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .core-layout:after {
     clear: both;
   }
-  /* line 591, ../../scss/layout/primary-layout.scss */
+  /* line 624, ../../scss/layout/primary-layout.scss */
   .core-layout .region--highlighted {
     display: block;
     position: relative;
@@ -673,7 +711,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 599, ../../scss/layout/primary-layout.scss */
+  /* line 632, ../../scss/layout/primary-layout.scss */
   .main-layout {
     display: block;
     margin: 0 auto;
@@ -682,16 +720,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .main-layout:before, .main-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .main-layout:after {
     clear: both;
   }
-  /* line 604, ../../scss/layout/primary-layout.scss */
+  /* line 637, ../../scss/layout/primary-layout.scss */
   .main-layout .region--content {
     display: block;
     position: relative;
@@ -705,7 +743,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 610, ../../scss/layout/primary-layout.scss */
+  /* line 643, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-first {
     display: block;
     position: relative;
@@ -719,7 +757,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 616, ../../scss/layout/primary-layout.scss */
+  /* line 649, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-second {
     display: block;
     position: relative;
@@ -734,7 +772,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 624, ../../scss/layout/primary-layout.scss */
+  /* line 657, ../../scss/layout/primary-layout.scss */
   .postscript-layout {
     display: block;
     margin: 0 auto;
@@ -743,16 +781,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .postscript-layout:before, .postscript-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .postscript-layout:after {
     clear: both;
   }
-  /* line 629, ../../scss/layout/primary-layout.scss */
+  /* line 662, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-first {
     display: block;
     position: relative;
@@ -766,7 +804,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 635, ../../scss/layout/primary-layout.scss */
+  /* line 668, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-second {
     display: block;
     position: relative;
@@ -780,7 +818,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 641, ../../scss/layout/primary-layout.scss */
+  /* line 674, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-third {
     display: block;
     position: relative;
@@ -794,7 +832,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 647, ../../scss/layout/primary-layout.scss */
+  /* line 680, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-fourth {
     display: block;
     position: relative;
@@ -809,7 +847,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 655, ../../scss/layout/primary-layout.scss */
+  /* line 688, ../../scss/layout/primary-layout.scss */
   .footer-layout {
     display: block;
     margin: 0 auto;
@@ -818,16 +856,16 @@ body:after {
     *zoom: 1;
     max-width: 100%;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .footer-layout:before, .footer-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .footer-layout:after {
     clear: both;
   }
-  /* line 660, ../../scss/layout/primary-layout.scss */
+  /* line 693, ../../scss/layout/primary-layout.scss */
   .footer-layout .region--footer {
     display: block;
     position: relative;
@@ -843,7 +881,7 @@ body:after {
   }
 }
 @media all and (min-width: 1024px) and (max-width: 1219px) {
-  /* line 670, ../../scss/layout/primary-layout.scss */
+  /* line 703, ../../scss/layout/primary-layout.scss */
   .header-layout {
     display: block;
     margin: 0 auto;
@@ -852,16 +890,16 @@ body:after {
     *zoom: 1;
     max-width: 1100px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .header-layout:before, .header-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .header-layout:after {
     clear: both;
   }
-  /* line 675, ../../scss/layout/primary-layout.scss */
+  /* line 708, ../../scss/layout/primary-layout.scss */
   .header-layout .region--header {
     display: block;
     position: relative;
@@ -875,7 +913,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 681, ../../scss/layout/primary-layout.scss */
+  /* line 714, ../../scss/layout/primary-layout.scss */
   .header-layout .region--menus {
     display: block;
     position: relative;
@@ -890,7 +928,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 689, ../../scss/layout/primary-layout.scss */
+  /* line 722, ../../scss/layout/primary-layout.scss */
   .preface-layout {
     display: block;
     margin: 0 auto;
@@ -899,16 +937,16 @@ body:after {
     *zoom: 1;
     max-width: 1100px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .preface-layout:before, .preface-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .preface-layout:after {
     clear: both;
   }
-  /* line 694, ../../scss/layout/primary-layout.scss */
+  /* line 727, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-first {
     display: block;
     position: relative;
@@ -922,7 +960,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 700, ../../scss/layout/primary-layout.scss */
+  /* line 733, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-second {
     display: block;
     position: relative;
@@ -936,7 +974,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 706, ../../scss/layout/primary-layout.scss */
+  /* line 739, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-third {
     display: block;
     position: relative;
@@ -950,7 +988,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 712, ../../scss/layout/primary-layout.scss */
+  /* line 745, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-fourth {
     display: block;
     position: relative;
@@ -965,7 +1003,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 720, ../../scss/layout/primary-layout.scss */
+  /* line 753, ../../scss/layout/primary-layout.scss */
   .core-layout {
     display: block;
     margin: 0 auto;
@@ -974,16 +1012,16 @@ body:after {
     *zoom: 1;
     max-width: 1100px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .core-layout:before, .core-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .core-layout:after {
     clear: both;
   }
-  /* line 725, ../../scss/layout/primary-layout.scss */
+  /* line 758, ../../scss/layout/primary-layout.scss */
   .core-layout .region--highlighted {
     display: block;
     position: relative;
@@ -998,7 +1036,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 733, ../../scss/layout/primary-layout.scss */
+  /* line 766, ../../scss/layout/primary-layout.scss */
   .main-layout {
     display: block;
     margin: 0 auto;
@@ -1007,16 +1045,16 @@ body:after {
     *zoom: 1;
     max-width: 1100px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .main-layout:before, .main-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .main-layout:after {
     clear: both;
   }
-  /* line 738, ../../scss/layout/primary-layout.scss */
+  /* line 771, ../../scss/layout/primary-layout.scss */
   .main-layout .region--content {
     display: block;
     position: relative;
@@ -1032,7 +1070,7 @@ body:after {
     right: auto;
     margin-bottom: 0;
   }
-  /* line 745, ../../scss/layout/primary-layout.scss */
+  /* line 778, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-first {
     display: block;
     position: relative;
@@ -1048,7 +1086,7 @@ body:after {
     left: auto;
     margin-bottom: 0;
   }
-  /* line 752, ../../scss/layout/primary-layout.scss */
+  /* line 785, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-second {
     display: block;
     position: relative;
@@ -1062,7 +1100,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 764, ../../scss/layout/primary-layout.scss */
+  /* line 797, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-first .region--content {
     width: 100%;
     margin-left: 0;
@@ -1082,7 +1120,7 @@ body:after {
     *margin-left: 0.9375%;
     float: left;
   }
-  /* line 771, ../../scss/layout/primary-layout.scss */
+  /* line 804, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-second .region--content {
     width: 100%;
     margin-left: 0;
@@ -1104,7 +1142,7 @@ body:after {
     left: 25%;
     right: auto;
   }
-  /* line 776, ../../scss/layout/primary-layout.scss */
+  /* line 809, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-second .region--sidebar-first {
     width: 100%;
     margin-left: 0;
@@ -1126,7 +1164,7 @@ body:after {
     right: 75%;
     left: auto;
   }
-  /* line 786, ../../scss/layout/primary-layout.scss */
+  /* line 819, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-first.without--sidebar-second .region--content {
     width: 100%;
     margin-left: 0;
@@ -1147,7 +1185,7 @@ body:after {
     float: left;
   }
 
-  /* line 796, ../../scss/layout/primary-layout.scss */
+  /* line 829, ../../scss/layout/primary-layout.scss */
   .postscript-layout {
     display: block;
     margin: 0 auto;
@@ -1156,16 +1194,16 @@ body:after {
     *zoom: 1;
     max-width: 1100px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .postscript-layout:before, .postscript-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .postscript-layout:after {
     clear: both;
   }
-  /* line 801, ../../scss/layout/primary-layout.scss */
+  /* line 834, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-first {
     display: block;
     position: relative;
@@ -1179,7 +1217,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 807, ../../scss/layout/primary-layout.scss */
+  /* line 840, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-second {
     display: block;
     position: relative;
@@ -1193,7 +1231,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 813, ../../scss/layout/primary-layout.scss */
+  /* line 846, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-third {
     display: block;
     position: relative;
@@ -1207,7 +1245,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 819, ../../scss/layout/primary-layout.scss */
+  /* line 852, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-fourth {
     display: block;
     position: relative;
@@ -1222,7 +1260,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 827, ../../scss/layout/primary-layout.scss */
+  /* line 860, ../../scss/layout/primary-layout.scss */
   .footer-layout {
     display: block;
     margin: 0 auto;
@@ -1231,16 +1269,16 @@ body:after {
     *zoom: 1;
     max-width: 1100px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .footer-layout:before, .footer-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .footer-layout:after {
     clear: both;
   }
-  /* line 832, ../../scss/layout/primary-layout.scss */
+  /* line 865, ../../scss/layout/primary-layout.scss */
   .footer-layout .region--footer {
     display: block;
     position: relative;
@@ -1256,7 +1294,7 @@ body:after {
   }
 }
 @media all and (min-width: 1220px) {
-  /* line 842, ../../scss/layout/primary-layout.scss */
+  /* line 875, ../../scss/layout/primary-layout.scss */
   .header-layout {
     display: block;
     margin: 0 auto;
@@ -1265,16 +1303,16 @@ body:after {
     *zoom: 1;
     max-width: 1400px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .header-layout:before, .header-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .header-layout:after {
     clear: both;
   }
-  /* line 847, ../../scss/layout/primary-layout.scss */
+  /* line 880, ../../scss/layout/primary-layout.scss */
   .header-layout .region--header {
     display: block;
     position: relative;
@@ -1288,7 +1326,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 853, ../../scss/layout/primary-layout.scss */
+  /* line 886, ../../scss/layout/primary-layout.scss */
   .header-layout .region--menus {
     display: block;
     position: relative;
@@ -1303,7 +1341,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 861, ../../scss/layout/primary-layout.scss */
+  /* line 894, ../../scss/layout/primary-layout.scss */
   .preface-layout {
     display: block;
     margin: 0 auto;
@@ -1312,16 +1350,16 @@ body:after {
     *zoom: 1;
     max-width: 1400px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .preface-layout:before, .preface-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .preface-layout:after {
     clear: both;
   }
-  /* line 866, ../../scss/layout/primary-layout.scss */
+  /* line 899, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-first {
     display: block;
     position: relative;
@@ -1335,7 +1373,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 872, ../../scss/layout/primary-layout.scss */
+  /* line 905, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-second {
     display: block;
     position: relative;
@@ -1349,7 +1387,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 878, ../../scss/layout/primary-layout.scss */
+  /* line 911, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-third {
     display: block;
     position: relative;
@@ -1363,7 +1401,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 884, ../../scss/layout/primary-layout.scss */
+  /* line 917, ../../scss/layout/primary-layout.scss */
   .preface-layout .region--preface-fourth {
     display: block;
     position: relative;
@@ -1378,7 +1416,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 892, ../../scss/layout/primary-layout.scss */
+  /* line 925, ../../scss/layout/primary-layout.scss */
   .core-layout {
     display: block;
     margin: 0 auto;
@@ -1387,16 +1425,16 @@ body:after {
     *zoom: 1;
     max-width: 1400px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .core-layout:before, .core-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .core-layout:after {
     clear: both;
   }
-  /* line 897, ../../scss/layout/primary-layout.scss */
+  /* line 930, ../../scss/layout/primary-layout.scss */
   .core-layout .region--highlighted {
     display: block;
     position: relative;
@@ -1411,7 +1449,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 905, ../../scss/layout/primary-layout.scss */
+  /* line 938, ../../scss/layout/primary-layout.scss */
   .main-layout {
     display: block;
     margin: 0 auto;
@@ -1420,16 +1458,16 @@ body:after {
     *zoom: 1;
     max-width: 1400px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .main-layout:before, .main-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .main-layout:after {
     clear: both;
   }
-  /* line 910, ../../scss/layout/primary-layout.scss */
+  /* line 943, ../../scss/layout/primary-layout.scss */
   .main-layout .region--content {
     display: block;
     position: relative;
@@ -1445,7 +1483,7 @@ body:after {
     right: auto;
     margin-bottom: 0;
   }
-  /* line 917, ../../scss/layout/primary-layout.scss */
+  /* line 950, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-first {
     display: block;
     position: relative;
@@ -1461,7 +1499,7 @@ body:after {
     left: auto;
     margin-bottom: 0;
   }
-  /* line 924, ../../scss/layout/primary-layout.scss */
+  /* line 957, ../../scss/layout/primary-layout.scss */
   .main-layout .region--sidebar-second {
     display: block;
     position: relative;
@@ -1475,7 +1513,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 936, ../../scss/layout/primary-layout.scss */
+  /* line 969, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-first .region--content {
     width: 100%;
     margin-left: 0;
@@ -1495,7 +1533,7 @@ body:after {
     *margin-left: 0.9375%;
     float: left;
   }
-  /* line 943, ../../scss/layout/primary-layout.scss */
+  /* line 976, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-second .region--content {
     width: 100%;
     margin-left: 0;
@@ -1517,7 +1555,7 @@ body:after {
     left: 25%;
     right: auto;
   }
-  /* line 948, ../../scss/layout/primary-layout.scss */
+  /* line 981, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-second .region--sidebar-first {
     width: 100%;
     margin-left: 0;
@@ -1539,7 +1577,7 @@ body:after {
     right: 75%;
     left: auto;
   }
-  /* line 958, ../../scss/layout/primary-layout.scss */
+  /* line 991, ../../scss/layout/primary-layout.scss */
   .main-layout.with--content.without--sidebar-first.without--sidebar-second .region--content {
     width: 100%;
     margin-left: 0;
@@ -1560,7 +1598,7 @@ body:after {
     float: left;
   }
 
-  /* line 968, ../../scss/layout/primary-layout.scss */
+  /* line 1001, ../../scss/layout/primary-layout.scss */
   .postscript-layout {
     display: block;
     margin: 0 auto;
@@ -1569,16 +1607,16 @@ body:after {
     *zoom: 1;
     max-width: 1400px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .postscript-layout:before, .postscript-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .postscript-layout:after {
     clear: both;
   }
-  /* line 973, ../../scss/layout/primary-layout.scss */
+  /* line 1006, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-first {
     display: block;
     position: relative;
@@ -1592,7 +1630,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 979, ../../scss/layout/primary-layout.scss */
+  /* line 1012, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-second {
     display: block;
     position: relative;
@@ -1606,7 +1644,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 985, ../../scss/layout/primary-layout.scss */
+  /* line 1018, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-third {
     display: block;
     position: relative;
@@ -1620,7 +1658,7 @@ body:after {
     float: left;
     margin-bottom: 0;
   }
-  /* line 991, ../../scss/layout/primary-layout.scss */
+  /* line 1024, ../../scss/layout/primary-layout.scss */
   .postscript-layout .region--postscript-fourth {
     display: block;
     position: relative;
@@ -1635,7 +1673,7 @@ body:after {
     margin-bottom: 0;
   }
 
-  /* line 999, ../../scss/layout/primary-layout.scss */
+  /* line 1032, ../../scss/layout/primary-layout.scss */
   .footer-layout {
     display: block;
     margin: 0 auto;
@@ -1644,16 +1682,16 @@ body:after {
     *zoom: 1;
     max-width: 1400px;
   }
-  /* line 260, ../../scss/layout/primary-layout.scss */
+  /* line 293, ../../scss/layout/primary-layout.scss */
   .footer-layout:before, .footer-layout:after {
     content: "";
     display: table;
   }
-  /* line 265, ../../scss/layout/primary-layout.scss */
+  /* line 298, ../../scss/layout/primary-layout.scss */
   .footer-layout:after {
     clear: both;
   }
-  /* line 1004, ../../scss/layout/primary-layout.scss */
+  /* line 1037, ../../scss/layout/primary-layout.scss */
   .footer-layout .region--footer {
     display: block;
     position: relative;

@@ -201,6 +201,14 @@ $back: #FBFBFB;
   width: auto;
   padding-bottom: 2em;
  }
+ .views-col:hover {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 30px;
+  margin-top: 1em;
+  width: auto;
+  padding-bottom: 2em;
+ }
+
   .views-field-field-location {
   .field-content {
   margin: 5%;
@@ -288,7 +296,8 @@ $back: #FBFBFB;
     }
 }
 }
-.contextual-region.view.view-categories.view-id-categories.view-display-id-block_2 .view-content .views-col {
+.path-frontpage .view-id-categories.view-display-id-block_2 {
+  .view-content .views-col {
   width: 17%;
   text-align: center;
   padding: 25px;
@@ -304,12 +313,14 @@ $back: #FBFBFB;
   
 }
 
-.contextual-region.view.view-categories.view-id-categories.view-display-id-block_2 .view-content .row-1 .views-col:hover {
+ .row-1, .row-2 {
+  .views-col:hover {
   width: 17%;
   text-align: center;
-  padding: 20px;
+  /*padding: 20px;*/
+  margin-top: 1%; 
   border: 1px solid rgba(0, 0, 0, 0.12);
-  margin: 1.5%;
+  /*margin: 1.5%;*/
   .views-field .views-field-name {
   margin-top: 2%;
   }
@@ -318,23 +329,10 @@ $back: #FBFBFB;
   text-decoration: none;
   }
 }
-
-.contextual-region.view.view-categories.view-id-categories.view-display-id-block_2 .view-content .row-2 .views-col:hover {
-  width: 17%;
-  text-align: center;
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  margin: 1.5%;
-  .views-field .views-field-name {
-  margin-top: 2%;
-  }
-  a, a:hover {
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-  
-  }
 }
 
+
+}
 
 
 #footer-logo {

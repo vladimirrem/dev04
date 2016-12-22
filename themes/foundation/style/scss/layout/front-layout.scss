@@ -66,6 +66,7 @@ $header: Georgia, Times, serif;
     margin-bottom: 0.2em;
     background-color: inherit;
     box-shadow: none;
+    color: white;
   }
 }
 
@@ -83,6 +84,9 @@ $header: Georgia, Times, serif;
     margin-top: 10em;
     color: white;
 }
+
+
+
 
 #views-exposed-form-most-recent-listings-page-1 {
   .form-item {
@@ -160,6 +164,10 @@ $back: #FBFBFB;
   float: left;
   padding: 20px;
   margin-left: 10%;
+  border-top: 1px solid #ccc;
+  p {
+    color: #666673;
+  }
   .views-field-field-img-blog {
   float: left;
   margin-right: 2%;
@@ -176,6 +184,12 @@ $back: #FBFBFB;
   color: $green;
   float: right;
   text-decoration: none;
+  }
+  a:after {
+    content: " > ";
+    color: $green;
+    font-size: small;
+    margin-left: 0.5em;
   }
   }
 }

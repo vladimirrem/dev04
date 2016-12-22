@@ -8,6 +8,20 @@ $lgreen: #3CC47E;
 $solid-line: 1px solid grey;
 
 
+a, a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.comment__meta a, a:hover {
+	color: $green;
+	text-decoration: none;
+}
+
+.field--type-comment {
+	color: grey;
+}
+
 .path-node {
 	#site-branding {
 		.site-name {
@@ -23,6 +37,7 @@ $solid-line: 1px solid grey;
     color: white;
 }
 }
+
 
 #block-foundation-branding {
 	width: 200px;
@@ -57,7 +72,11 @@ $solid-line: 1px solid grey;
 }
 
 
+/* CONTENT*/
 
+.path-node h2 {
+text-align: left;
+}
 
 
 /* FOOTER STYLE */
@@ -171,10 +190,15 @@ $block-width: 33%;
 	text-align: right;
 	.menu {
 	text-align: right;
+	li.menu-item--expanded {
+	display: none;
+	}
 	}
 	margin-bottom: 2%;
     margin-top: 2%;
+
 	}
+
 
 #block-views-block-location-block-2, #block-footertext, #block-views-block-categories-block-3 {
 	width: $block-width;

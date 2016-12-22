@@ -63,10 +63,11 @@ a, a:hover {
 /* line 77, ../scss/foundation.scss */
 .path-node h2 {
   text-align: left;
+  border-bottom: 1px solid #ccc;
 }
 
 /* FOOTER STYLE */
-/* line 84, ../scss/foundation.scss */
+/* line 85, ../scss/foundation.scss */
 #footer-logo {
   max-width: 1440px;
   margin: auto;
@@ -75,23 +76,23 @@ a, a:hover {
   border-top: 1px dashed rgba(0, 0, 0, 0.12);
   margin-top: 2%;
 }
-/* line 91, ../scss/foundation.scss */
+/* line 92, ../scss/foundation.scss */
 #footer-logo .view-display-id-block_1 .views-col {
   border: none;
   margin-top: 5%;
 }
 
-/* line 98, ../scss/foundation.scss */
+/* line 99, ../scss/foundation.scss */
 #block-views-block-location-block-2 .view-display-id-block_2 .views-col {
   width: 20%;
   text-align: left;
   padding: 10px;
 }
-/* line 102, ../scss/foundation.scss */
+/* line 103, ../scss/foundation.scss */
 #block-views-block-location-block-2 .view-display-id-block_2 .views-col a:hover {
   margin-left: 5px;
 }
-/* line 105, ../scss/foundation.scss */
+/* line 106, ../scss/foundation.scss */
 #block-views-block-location-block-2 .view-display-id-block_2 .views-col a:before {
   content: " > ";
   color: #3CC47E;
@@ -99,17 +100,17 @@ a, a:hover {
   margin-right: 0.5em;
 }
 
-/* line 116, ../scss/foundation.scss */
+/* line 117, ../scss/foundation.scss */
 #block-views-block-categories-block-3 .view-display-id-block_3 .views-col {
   width: 20%;
   text-align: left;
   padding: 10px;
 }
-/* line 120, ../scss/foundation.scss */
+/* line 121, ../scss/foundation.scss */
 #block-views-block-categories-block-3 .view-display-id-block_3 .views-col a:hover {
   margin-left: 5px;
 }
-/* line 123, ../scss/foundation.scss */
+/* line 124, ../scss/foundation.scss */
 #block-views-block-categories-block-3 .view-display-id-block_3 .views-col a:before {
   content: " > ";
   color: #3CC47E;
@@ -117,52 +118,52 @@ a, a:hover {
   margin-right: 0.5em;
 }
 
-/* line 133, ../scss/foundation.scss */
+/* line 134, ../scss/foundation.scss */
 #footer-outer-wrapper {
   font-size: smaller;
 }
-/* line 135, ../scss/foundation.scss */
+/* line 136, ../scss/foundation.scss */
 #footer-outer-wrapper h2 {
   font-weight: normal;
 }
 
-/* line 140, ../scss/foundation.scss */
+/* line 141, ../scss/foundation.scss */
 .region--footer.region.region-footer {
   padding-top: 2%;
 }
 
-/* line 148, ../scss/foundation.scss */
+/* line 149, ../scss/foundation.scss */
 #footer-outer-wrapper {
   background-color: #383C3F;
   color: #A7C2B7;
 }
-/* line 151, ../scss/foundation.scss */
+/* line 152, ../scss/foundation.scss */
 #footer-outer-wrapper a {
   color: #A7C2B7;
   text-decoration: none;
 }
-/* line 155, ../scss/foundation.scss */
+/* line 156, ../scss/foundation.scss */
 #footer-outer-wrapper a:hover {
   color: #FFF;
   text-decoration: none;
 }
-/* line 159, ../scss/foundation.scss */
+/* line 160, ../scss/foundation.scss */
 #footer-outer-wrapper h2 {
   color: #fff;
 }
-/* line 162, ../scss/foundation.scss */
+/* line 163, ../scss/foundation.scss */
 #footer-outer-wrapper .field--type-text-with-summary {
   clear: left;
   width: 100%;
   float: left;
 }
-/* line 166, ../scss/foundation.scss */
+/* line 167, ../scss/foundation.scss */
 #footer-outer-wrapper .field--type-text-with-summary a {
   text-decoration: underline;
   color: #A7C2B7;
 }
 
-/* line 175, ../scss/foundation.scss */
+/* line 176, ../scss/foundation.scss */
 #block-footercopyright {
   width: 50%;
   float: left;
@@ -172,7 +173,7 @@ a, a:hover {
   padding-top: 1em;
 }
 
-/* line 184, ../scss/foundation.scss */
+/* line 185, ../scss/foundation.scss */
 #block-useraccountmenu {
   float: right;
   margin: 0;
@@ -183,22 +184,22 @@ a, a:hover {
   margin-bottom: 2%;
   margin-top: 2%;
 }
-/* line 191, ../scss/foundation.scss */
+/* line 192, ../scss/foundation.scss */
 #block-useraccountmenu .menu {
   text-align: right;
 }
-/* line 193, ../scss/foundation.scss */
+/* line 194, ../scss/foundation.scss */
 #block-useraccountmenu .menu li.menu-item--expanded {
   display: none;
 }
 
-/* line 203, ../scss/foundation.scss */
+/* line 204, ../scss/foundation.scss */
 #block-views-block-location-block-2, #block-footertext, #block-views-block-categories-block-3 {
   width: 33%;
   float: left;
 }
 
-/* line 208, ../scss/foundation.scss */
+/* line 209, ../scss/foundation.scss */
 .clearfix .text-formatted .field .field--name-body .field--type-text-with-summary .field--label-hidden .field__item .quickedit-field {
   width: 50%;
 }

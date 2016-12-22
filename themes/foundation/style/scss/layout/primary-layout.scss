@@ -115,7 +115,7 @@ $text-grey: #666673;
   }
 }
 
-#search-block-form {
+.region-header {#search-block-form {
   float: right;
   opacity: inherit;
   border-radius: 2em;
@@ -134,9 +134,10 @@ $text-grey: #666673;
     margin-bottom: 0.2em;
     background-color: inherit;
     box-shadow: none;
+    color: #CCC;
   }
 }
-
+}
 
 /*BLOG view*/
 
@@ -390,6 +391,8 @@ $text-grey: #666673;
     margin-top: 2em;
   }
 }
+
+
 
 /*FOOTER*/
 
